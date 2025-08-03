@@ -9,7 +9,7 @@ export const ALL_PROJECTS: Project[] = [
     title: "Personal website",
     description:
       "The website that i use to showcase my works.",
-    link: "#",
+    link: "https://github.com/Sayskh/Portfolio",
     tags: ["React.js", "Astro", "Tailwind"],
   },
     {

@@ -137,7 +137,7 @@ const Content: React.FC<ContentProps> = ({
             visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
           }}
         >
-          Skills & Technologies
+          Skills
         </motion.h2>
         <motion.div
           className="flex flex-wrap justify-center gap-4"
@@ -176,7 +176,7 @@ const Content: React.FC<ContentProps> = ({
           }}
         >
           <h2 className="text-3xl font-bold text-gray-900 dark:text-slate-100">
-            Featured Projects
+            Projects
           </h2>
           <a
             href="/projects"
