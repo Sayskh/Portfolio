@@ -1,0 +1,27 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Content from "../components/Content.tsx";
+import { ALL_PROJECTS } from "../data/projects.ts";
+
+const title = "Home Page";
+const name = "Sayyid Sakhiy Sulaeman";
+
+const descriptionPoints: string[] = [
+  "A 18 years old web developer and motion design.",
+  "Experience on JavaScript and TypeScript.",
+  "Also currently learning on 3D Design.",
+  "You can find me on Twitter at @Sayskh_",
+];
+const featuredProjectsData = ALL_PROJECTS.slice(0, 2);
+---
+
+<Layout title={title}>
+  <main class="max-w-4xl mx-auto px-4 py-16 sm:py-24">
+    <Content
+      client:visible
+      name={name}
+      descriptionPoints={descriptionPoints}
+      featuredProjects={featuredProjectsData}
+    />
+  </main>
+</Layout>

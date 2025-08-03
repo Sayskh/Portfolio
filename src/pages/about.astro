@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AboutContent from '../components/About.tsx';
+
+const title = "About";
+---
+
+<Layout title={title}>
+  <main class="max-w-4xl mx-auto px-4 py-16 sm:py-24">
+
+    <div class="text-left mb-4">
+      <h1 class="text-4xl font-bold text-gray-900 dark:text-slate-200">
+        About me
+      </h1>
+    </div>
+
+    <AboutContent client:visible />
+
+  </main>
+</Layout>

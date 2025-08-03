@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+const title = "Page Not Found";
+---
+
+<Layout title={title}>
+ <div class="hero absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+        <h1 class="text-8xl font-bold">404</h1>
+        <p class="text-lg text-neutral-content py-3">
+          The page you were looking for doesn't exist.
+        </p>
+        <a href="/" class="text-[#1a5824] dark:text-[#864294] hover:text-[#8bb191] dark:hover:text-[#847c99] hover:underline transition-colors">Go back home</a>
+      </div>
+    </div>
+  </div>
+</Layout>
