@@ -43,14 +43,14 @@ const educationData: TimelineItemData[] = [
     primaryText: "Universitas Muhammadiyah Cirebon",
     secondaryText: "S1 Teknik Informatika",
     date: "2025 - 2029 (expected)",
-    details: "",
+    details: "-",
   },
   {
     primaryText: "SMKS Manba'ul Ulum Cirebon",
     secondaryText: "Teknik Komputer Jaringan dan Telekomunikasi",
-    date: "2023 - 2025",
+    date: "2022 - 2025",
     details:
-      "Mendapatkan keahlian dalam konfigurasi jaringan, termasuk pengkabelan router dan switch, serta pemrograman dasar.",
+      "Gaining expertise in network configuration. This includes router and switch cabling. It also includes basic programming.",
   },
 ];
 
@@ -149,7 +149,7 @@ const AboutContent: React.FC = () => {
         <p className=" text-gray-900 dark:text-slate-200 leading-relaxed">
           Hi, i am Sayyid Sakhiy Sulaeman aslo known as Hio, a Software
           Developer, Motion Designer, and Video Editor. I'm based in Indonesia,
-          and i have a passion on Machine Learning and Design. I love taking on challenging
+          and i have a passion on Cyber Security and UI/UX. I love taking on challenging
           projects that will push me to learn and grow.
         </p>
         <div className="mt-4 flex items-center gap-4">
@@ -222,7 +222,7 @@ const AboutContent: React.FC = () => {
           variants={itemVariants}
           className="text-gray-900 dark:text-slate-200 mb-8"
         >
-          I usually play games and listen to music. You can also see my Artwork and other works on my Twitter.
+          I usually play games and listen to music. You can also see my Art and other works on my other socials.
         </motion.h2>
         <div className="space-y-4">
           <motion.div variants={itemVariants} className="flex items-start gap-4">
