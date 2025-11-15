@@ -10,10 +10,10 @@ export const ALL_PROJECTS: Project[] = [
     description:
       "The website that i use to showcase my works.",
     link: "https://github.com/Sayskh/Portfolio",
-    tags: ["React.js", "Astro", "Tailwind"],
+    tags: ["Astro", "Tailwind"],
   },
     {
-    title: "DeleteTweets",
+    title: "Delete Tweets",
     description:
       "Delete / Remove all your tweets.",
     link: "https://github.com/Sayskh/DeleteTweets",
