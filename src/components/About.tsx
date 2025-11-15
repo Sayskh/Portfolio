@@ -8,7 +8,6 @@ import {
   FaGamepad,
 } from "react-icons/fa";
 import type { IconType } from "react-icons";
-import { createEmitAndSemanticDiagnosticsBuilderProgram } from "typescript";
 
 interface TimelineItemData {
   primaryText: string;
